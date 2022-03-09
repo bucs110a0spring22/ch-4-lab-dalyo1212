@@ -1,18 +1,46 @@
 import turtle
-
-########### Your Code here ##############
-# You should only have functions here
-# If you have anything outside of a function, 
-# then you do not fully understand functions
-# and should review how they work or ask for help
+import math
 
 
+def drawSineCurve(dart):
+  for i in range(-360, 361, 1):
+    y = math.sin(math.radians(90))
+    dart.shape("turtle")
+    dart.goto(i, y)
 
 
+def setupWindow(wndw):
+  wndw.setworldcoordinates(-360, -1, 360, 1)
 
 
+def setupAxis(dart):
+  turtle.setworldcoordinates(-360, -1, 360, 1)
 
 
+def drawSineCurve(dart):
+  for i in range(-360, 361, 1):
+    x_coordinate = i
+    y_coordinate = math.sin(math.radians(i))
+    dart.shape("turtle")
+    dart.goto(x_coordinate, y_coordinate)
+  dart.up()
+
+def drwCosineCurve(dart):
+  for i in range (-360,361,1):
+    x_coordinate = i
+    y_coordinate = math.cos(math.radians(i))
+    dart.goto(x_coordinate, y_coordinate)
+    dart.down
+  dart.up()
+
+def drawTangentCurve(dart):
+  for i in range(-360, 361, 1):
+    x_coordinate = i
+    y_coordinate = math.tan(math.radians(i))
+    dart.goto(x_coordinate, y_coordinate)
+    dart.down()
+
+  
 ##########  Do Not Alter Any Code Past Here ########
 def main():
     #Part A
@@ -30,4 +58,6 @@ def main():
     drawCosineCurve(dart)
     drawTangentCurve(dart)
     wn.exitonclick()
+
+
 main()

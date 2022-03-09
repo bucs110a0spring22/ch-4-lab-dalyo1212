@@ -8,18 +8,18 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+ Learned how to use the turtle library to graph trig equations
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: 1
 
-Grace days remaining: < # >/5
+Grace days remaining: 4/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+ N/A
 
 ## REFERENCES:
- < List any outside resources used >
+ python turtle links
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+ I'm not entirely sure if this issue will pop up, but the reason why it may appear that I have multiple of githubs of this lab is beacuse I was trying to figure out how to to Configure Run Button with .replit File so I kept on deleting repls that i made before i figured out how to do it.
